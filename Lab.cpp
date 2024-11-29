@@ -47,7 +47,7 @@ int main() {
     taxAmount = salary * taxRate;
 
     // Display output
-    cout << fixed << setprecision(2);
+    cout << fixed << setprecision(2); // Set how many decimal places to show
     cout << "Employee Monthly Salary: " << salary << endl;
     cout << "Marital Status: " << (maritalStatus == 's' ? "Single" : "Married") << endl;
     cout << "Tax Rate: " << (taxRate * 100) << "%" << endl;
